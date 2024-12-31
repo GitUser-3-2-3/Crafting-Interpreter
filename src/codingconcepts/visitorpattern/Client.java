@@ -18,7 +18,7 @@ public class Client {
         doubleRoomObj.accept(maintenanceVisitor);
 
         // Performing operations on the DeluxeRoom for Reservation.
-        iRoomVisitor reservationVisitor= new ReserveRoomVisitor();
+        iRoomVisitor reservationVisitor = new ReserveRoomVisitor();
         deluxeRoomObj.accept(reservationVisitor);
     }
 }
